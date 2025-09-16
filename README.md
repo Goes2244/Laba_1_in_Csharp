@@ -251,6 +251,7 @@ False
 # Первый тест:
 
 goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
+
 Введите длину массива ->
 6
 arr[0] = 1
