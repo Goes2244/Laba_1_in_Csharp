@@ -106,6 +106,7 @@ goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 # Второй тест:
 
 goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
+
 Задание 2: Безопасное деление
 Введите x -> 8
 Введите y -> 2
