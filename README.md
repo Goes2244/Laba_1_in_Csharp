@@ -4,8 +4,6 @@
 
 # Первый тест:
 
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
-
 Задание 2: Введите число -> 
 4568
 Сумма двух последних цифр = 14
@@ -37,8 +35,6 @@ D
 Результат: 4
 
 # Второй тест:
-
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 
 Задание 2: Введите число -> 
 45933 
@@ -74,8 +70,6 @@ q
 
 # Первый тест:
 
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
-
 Задание 2: Безопасное деление
 Введите x -> 5
 Введите y -> 0
@@ -105,8 +99,6 @@ goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 
 # Второй тест:
 
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
-
 Задание 2: Безопасное деление
 Введите x -> 8
 Введите y -> 2
@@ -132,8 +124,6 @@ goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 это не день недели
 
 # Третий тест:
-
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 
 Задание 2: Безопасное деление
 Введите x -> 1 
@@ -169,8 +159,6 @@ goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 
 # Первый тест:
 
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
-
 Задание 2: Числа наоборот
 Введите число -> 5
 5 4 3 2 1 0
@@ -205,8 +193,6 @@ True
 Вы отгадали число за 6 попытки
 
 # Второй тест:
-
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 
 Задание 2: Числа наоборот
 Введите число -> 7
@@ -250,8 +236,6 @@ False
 # Задание 4:
 
 # Первый тест:
-
-goes2224@MacBook-Air-Mihail Labs-C# % dotnet run
 
 Введите длину массива ->
 6
