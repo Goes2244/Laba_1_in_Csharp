@@ -1,5 +1,3 @@
-using System;
-
 namespace Labs_C_
 {
     public class AllLabs
@@ -44,7 +42,11 @@ namespace Labs_C_
         public double SafeDiv(int x, int y)
         {
             if (y == 0)
+                
+            {
                 return 0;
+            }
+
             return (double)x / y;
         }
 
@@ -52,11 +54,17 @@ namespace Labs_C_
         public string MakeDecision(int x, int y)
         {
             if (x > y)
+            {
                 return $"{x} > {y}";
+            }
             else if (x < y)
+            {
                 return $"{x} < {y}";
+            }
             else
+            {
                 return $"{x} == {y}";
+            }
         }
 
         // 6. Тройная сумма - проверяет, равна ли сумма двух чисел третьему
@@ -69,17 +77,25 @@ namespace Labs_C_
         public string Age(int x)
         {
             if (x < 0)
+            {
                 return "Возраст не может быть отрицательным!";
+            }
             
             int lastDigit = x % 10;
             int lastTwoDigits = x % 100;
 
             if (lastDigit == 1 && lastTwoDigits != 11)
+            {
                 return $"{x} год";
+            }
             else if ((lastDigit >= 2 && lastDigit <= 4) && !(lastTwoDigits >= 12 && lastTwoDigits <= 14))
+            {
                 return $"{x} года";
+            }
             else
+            {
                 return $"{x} лет";
+            }
         }
 
         // 10. Вывод дней недели - выводит дни недели начиная с заданного
@@ -124,7 +140,10 @@ namespace Labs_C_
             {
                 result += i + " ";
             }
-            return result.Trim();
+
+            {
+                return result.Trim();
+            }
         }
 
         // 4. Степень числа - возводит x в степень y
@@ -135,7 +154,10 @@ namespace Labs_C_
             {
                 result *= x;
             }
-            return result;
+
+            {
+                return result;
+            }
         }
 
         // 6. Одинаковость - проверяет, все ли цифры в числе одинаковы
@@ -148,7 +170,10 @@ namespace Labs_C_
                     return false;
                 x /= 10;
             }
-            return true;
+
+            {
+                return true;
+            }
         }
 
         // 8. Левый треугольник - рисует треугольник из звездочек
@@ -211,7 +236,9 @@ namespace Labs_C_
             for (int i = arr.Length - 1; i >= 0; i--)
             {
                 if (arr[i] == x)
+                {
                     return i;
+                }
             }
             return -1;
         }
@@ -227,7 +254,10 @@ namespace Labs_C_
                 else
                     result[i] = arr[j++];
             }
-            return result;
+
+            {
+                return result;
+            }
         }
 
         // 6. Реверс - переворачивает массив
@@ -250,7 +280,9 @@ namespace Labs_C_
                 result[i] = arr1[i];
             for (int i = 0; i < arr2.Length; i++)
                 result[arr1.Length + i] = arr2[i];
-            return result;
+            {
+                return result;
+            }
         }
 
         // 10. Удалить негатив - возвращает массив без отрицательных элементов
@@ -270,7 +302,10 @@ namespace Labs_C_
                 if (v >= 0)
                     result[index++] = v;
             }
-            return result;
+
+            {
+                return result;
+            }
         }
 
         // Вспомогательный метод для вывода массива
